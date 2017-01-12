@@ -41,7 +41,7 @@ import requests
 # from pexpect import run, spawn
 
 
-def crawl_web(initial_url, depth, not_crawl):
+def crawl_web(initial_url, depth, not_crawl='no'):
 
     crawled, ato_crawl, to_crawl = set(), set(), set()
     cur_depth = 0
